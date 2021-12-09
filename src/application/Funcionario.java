@@ -2,7 +2,6 @@ package application;
 
 public class Funcionario {
 	
-	private String codigo;
 	private String nome;
 	private String sobrenome;
 
@@ -23,14 +22,6 @@ public class Funcionario {
 
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
-	}
-
-	public String getCodigo() {
-		return codigo;
-	}
-
-	public void setCodigo(String codigo) {
-		this.codigo = codigo;
 	}
 
 }
